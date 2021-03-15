@@ -15,3 +15,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: DeclaresTag:h3
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresTag:p
