@@ -1,5 +1,5 @@
-Usando [IMDb](https://www.imdb.com/) como referencia, `index.html` debe contener:
-
+> Usando [IMDb](https://www.imdb.com/) como referencia, `index.html` debe contener:
+>
 - un título `h1` con el nombre de una película.
 - una imagen con el poster de la película.
 - un `h2` que diga: `Elenco`
