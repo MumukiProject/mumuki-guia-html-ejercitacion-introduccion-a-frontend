@@ -1,0 +1,23 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresTag:h1
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresTag:h2
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresTag:p
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresTag:ul
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ul
+  inspection: DeclaresTag:li
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresTag:ol
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ol
+  inspection: DeclaresTag:li
