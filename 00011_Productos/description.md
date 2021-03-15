@@ -1,5 +1,5 @@
-`index.html` debe contener:
-
+> Creá un código HTML que contenga:
+>
 - un título `h1` que diga: `Mi tienda`.
 - un título `h2` que diga: `Productos más comprados`.
 - 5 productos, que contengan:

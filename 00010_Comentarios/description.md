@@ -1,5 +1,5 @@
-`index.html` debe contener:
-
+> Creá un código HTML que contenga:
+>
 - un título `h1` que diga: `Un artículo increíble`.
 - un párrafo `p` con `lorem ipsum`.
 - un título `h2` que diga `Comentarios`.
