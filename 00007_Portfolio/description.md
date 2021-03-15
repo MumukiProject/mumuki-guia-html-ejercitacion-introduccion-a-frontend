@@ -1,15 +1,15 @@
-Crear las siguientes páginas con los siguientes elementos:
-
+> Creá las siguientes páginas con los siguientes elementos:
+>
 #### `index.html`
 - un título `h1` con tu nombre.
 - un párrafo `p` de introducción.
 - una lista desordenada de links que te lleven a las demás páginas (`Conocimientos`, `Experiencia`, `Contacto`).
-
+>
 #### `conocimientos.html`
 - un título `h1` que diga `Conocimientos`.
 - una lista desordenada de habilidades
 - un link que diga `Volver atrás` y que te lleve a `index.html`.
-
+>
 #### `experiencia.html`
 - un título `h1` que diga `Experiencia`.
 - Agregar 3 veces:
@@ -17,7 +17,7 @@ Crear las siguientes páginas con los siguientes elementos:
   - un elemento `p` con el período de empleo (por ejemplo, `2018-2020`)
   - un elemento `p` con el puesto de trabajo (por ejemplo, `Desarrolladora Frontend`)
 - un link que diga `Volver atrás` y que te lleve a `index.html`.
-
+>
 #### `contacto.html`
 - un título `h1` que diga `Contacto`.
 - un párrafo `p` que diga `Podés escribirme a ada.lovelace@gmail.com` (o cualquier otro mail).
