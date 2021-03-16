@@ -16,7 +16,7 @@ expectations:
   binding: "*"
   inspection: DeclaresTag:ol
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: ul
+  binding: ol
   inspection: DeclaresTag:li
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
