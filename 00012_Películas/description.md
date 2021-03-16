@@ -1,4 +1,4 @@
-> Usando [IMDb](https://www.imdb.com/) como referencia, crear los siguientes archivos:
+> Usando [IMDb](https://www.imdb.com/) como referencia, creá los siguientes archivos:
 >
 #### `index.html`
 >

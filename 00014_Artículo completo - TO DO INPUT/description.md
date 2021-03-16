@@ -1,5 +1,5 @@
-A partir de lo visto ejercicios anteriores, crear en un `index.html` un artículo de blog que tenga:
-
+> A partir de lo visto ejercicios anteriores, creá en un `index.html` un artículo de blog que tenga:
+>
 - Una lista de contenido que lleve a cada sección
 - Al menos 3 secciones
 - Al menos 3 imágenes
