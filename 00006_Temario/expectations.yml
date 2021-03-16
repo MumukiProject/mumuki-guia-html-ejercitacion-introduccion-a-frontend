@@ -14,7 +14,7 @@ expectations:
   inspection: DeclaresAttribute:href
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresTag:ul
+  inspection: DeclaresTag:ol
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: ul
   inspection: DeclaresTag:li
