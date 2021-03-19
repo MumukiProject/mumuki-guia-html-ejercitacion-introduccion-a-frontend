@@ -1,4 +1,4 @@
-> Usando [IMDb](https://www.imdb.com/) como referencia, `index.html` creá un código HTML que contenga:
+> Usando [IMDb](https://www.imdb.com/) como referencia, creá un código HTML que contenga:
 >
 - un título `h1` con el nombre de una película.
 - una imagen con el poster de la película.
