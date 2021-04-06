@@ -1,4 +1,4 @@
-Vamos a crear nuestro propio diario personal :book:, necesitamos que tenga:
+Vamos a crear nuestro propio diario personal :book:, debe contener:
 
 * un título `h1` que diga: `Mi diario`.
 * por cada día de la semana crear un título `h2` con el nombre del día.
