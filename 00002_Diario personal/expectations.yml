@@ -4,7 +4,7 @@ expectations:
   binding: "*"
   inspection: DeclaresTag:h1
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
+  binding: h2
   inspection: DeclaresTag:p
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
