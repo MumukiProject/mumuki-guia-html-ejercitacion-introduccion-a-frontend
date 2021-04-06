@@ -7,6 +7,11 @@ it("Se introdujeron dos h2", () => {
       _originalDocument_.getElementsByTagName("h2").length.should.eql(2);
       document.getElementsByTagName("h2").length.should.eql(2);
     })
+
+it("Se introdujeron dos h3", () => {
+      _originalDocument_.getElementsByTagName("h3").length.should.eql(2);
+      document.getElementsByTagName("h3").length.should.eql(2);
+    })
   
 it("Se introdujeron cinco etiquetas p", () => {
       _originalDocument_.getElementsByTagName("p").length.should.eql(5);
