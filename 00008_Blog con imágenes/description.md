@@ -1,4 +1,5 @@
-Anteriormente realizamos un blog, pero un blog sin imagenes es medio aburrido :pensive:, como queremos aumentar el número de visitas necesitamos que ahora contenga:
+Anteriormente realizamos un blog, pero un blog sin imagenes es medio aburrido :pensive:, por suerte podemos realizar uno nuevo y así aumentar el número de visitas :raised_hands:. 
+Necesitamos que nuestro nuevo blog tenga:
 
 - una imagen
 - un título `h1` con el nombre del artículo (por ejemplo **El sistema solar**).
