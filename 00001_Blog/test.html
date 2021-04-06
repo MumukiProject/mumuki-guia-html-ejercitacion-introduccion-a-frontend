@@ -1,0 +1,8 @@
+/*<tests#*/it("Se introdujeron cinco etiquetas p", () => {
+      _originalDocument_.getElementsByTagName("p").length.should.eql(5);
+      document.getElementsByTagName("p").length.should.eql(5);
+    })
+it("Se introdujo una etiqueta h1", () => {
+      _originalDocument_.getElementsByTagName("h1").length.should.eql(1);
+      document.getElementsByTagName("h1").length.should.eql(1);
+    })/*#tests>*/
