@@ -1,31 +1,30 @@
 /*<tests#*/it("Se introdujo un título h1", () => {
-      _originalDocument_.getElementsByTagName("h1").length.should.eql(1);
-      document.getElementsByTagName("h1").length.should.eql(1);
-    })
-    
+  document.getElementsByTagName("h1").length.should.eql(1);
+})
+
 it("Se introdujo un párrafo p", () => {
-      _originalDocument_.getElementsByTagName("p").length.should.eql(1);
-      document.getElementsByTagName("p").length.should.eql(1);
-    })
+  document.getElementsByTagName("p").length.should.eql(1);
+})
 
 it("Se introdujeron dos h2", () => {
-      _originalDocument_.getElementsByTagName("h2").length.should.eql(2);
-      document.getElementsByTagName("h2").length.should.eql(2);
-    })
+  document.getElementsByTagName("h2").length.should.eql(2);
+})
 
-    
+
 it("Se introdujo una lista desordenada ul", () => {
-      _originalDocument_.getElementsByTagName("ul").length.should.eql(1);
-      document.getElementsByTagName("ul").length.should.eql(1);
-    })
-    
-it("Se introdujo una lista desordenada li", () => {
-      _originalDocument_.getElementsByTagName("li").length.should.eql(1);
-      document.getElementsByTagName("li").length.should.eql(1);
-    })
-    
-it("", () => {
-  document.querySelectorAll('h2')[0].should.have.trimmed.text("Ingredientes");
+  document.getElementsByTagName("ul").length.should.eql(1);
+})
+
+it("Se introdujo una lista ordenada ol", () => {
+  document.getElementsByTagName("ol").length.should.eql(1);
+})
+
+it("El primer h2 dice Ingredientes", () => {
+document.querySelectorAll('h2')[0].should.have.trimmed.text("Ingredientes");
+})
+
+it("El segundo h2 dice Instrucciones", () => {
+document.querySelectorAll('h2')[1].should.have.trimmed.text("Instrucciones");
 })
 
 
