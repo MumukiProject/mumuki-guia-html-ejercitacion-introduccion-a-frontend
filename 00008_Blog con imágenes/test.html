@@ -18,8 +18,12 @@ it("Hay tres imagenes",() => {
   document.getElementsByTagName("img").length.should.eql(3);
 })
 
-it("Cada sección debe tener una imagen",() => {
+/*it("Cada sección debe tener una imagen",() => {
   document.querySelectorAll("section img").length.should.eql(2);
+})*/
+
+it("Cada sección debe tener una imagen",() => {
+  document.querySelectorAll("section p + img").length.should.eql(2);
 })
 
 
