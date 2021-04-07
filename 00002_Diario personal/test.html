@@ -2,8 +2,9 @@
   document.getElementsByTagName("h1").length.should.eql(1);
 })
 it("El título dice Mi diario", () => {
-document.getElementsByTagName('h1').should.have.trimmed.text("Mi diario");
+document.querySelector('h1').should.have.trimmed.text("Mi diario");
 })
+
 
 it("Se introdujeron siete h2, uno por cada día de la semana", () => {
   document.getElementsByTagName("h2").length.should.eql(7);
