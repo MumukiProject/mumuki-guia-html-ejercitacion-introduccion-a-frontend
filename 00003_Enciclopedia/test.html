@@ -3,6 +3,11 @@
       document.getElementsByTagName("h1").length.should.eql(1);
     })
     
+it("Se introdujeron cuatro section", () => {
+      _originalDocument_.getElementsByTagName("section").length.should.eql(4);
+      document.getElementsByTagName("section").length.should.eql(4);
+    })
+    
 it("Se introdujeron dos h2", () => {
       _originalDocument_.getElementsByTagName("h2").length.should.eql(2);
       document.getElementsByTagName("h2").length.should.eql(2);
