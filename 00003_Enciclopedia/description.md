@@ -1,4 +1,4 @@
-Necesitamos armar nuestra propia enciclopedia con artículos de nuestro interés, cada página de la misma debe contener:
+Queremos armar nuestra propia enciclopedia con artículos de nuestro interés, cada página de la misma debe contener:
 
 * un título `h1` con el nombre del artículo (por ejemplo **Ada Lovelace**).
 * un párrafo `p` con la introducción o resumen del artículo.
