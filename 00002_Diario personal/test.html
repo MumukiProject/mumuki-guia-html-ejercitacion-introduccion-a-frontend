@@ -1,15 +1,18 @@
 /*<tests#*/it("Se introdujo un título h1", () => {
-  _originalDocument_.getElementsByTagName("h1").length.should.eql(1);
   document.getElementsByTagName("h1").length.should.eql(1);
+})
+it("El título dice Mi diario", () => {
+document.getElementByTagName('h1').should.have.trimmed.text("Mi diario");
 })
 
 it("Se introdujeron siete h2, uno por cada día de la semana", () => {
-  _originalDocument_.getElementsByTagName("h2").length.should.eql(7);
   document.getElementsByTagName("h2").length.should.eql(7);
 })
 
 it("Se introdujeron siete etiquetas p", () => {
-  _originalDocument_.getElementsByTagName("p").length.should.eql(7);
   document.getElementsByTagName("p").length.should.eql(7);
 })
-/*#tests>*/
+
+it("Hay una etiqueta h2 que contiene al día Lunes", () => {
+document.getElementsByTagName('h2')[0].should.have.trimmed.text("Lunes");
+})/*#tests>*/
