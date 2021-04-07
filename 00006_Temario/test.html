@@ -1,1 +1,19 @@
-/*<tests#*//*#tests>*/
+/*<tests#*/it("Se introdujo un título h1", () => {
+      _originalDocument_.getElementsByTagName("h1").length.should.eql(1);
+      document.getElementsByTagName("h1").length.should.eql(1);
+    })
+    
+it("Se introdujo un párrafo p", () => {
+      _originalDocument_.getElementsByTagName("p").length.should.eql(1);
+      document.getElementsByTagName("p").length.should.eql(1);
+    })
+    
+it("Se introdujo un título h2", () => {
+      _originalDocument_.getElementsByTagName("h2").length.should.eql(1);
+      document.getElementsByTagName("h2").length.should.eql(1);
+    })
+    
+it("Se introdujeron tres títulos h3", () => {
+      _originalDocument_.getElementsByTagName("p").length.should.eql(3);
+      document.getElementsByTagName("p").length.should.eql(3);
+    })/*#tests>*/
