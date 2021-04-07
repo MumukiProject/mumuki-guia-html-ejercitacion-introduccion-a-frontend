@@ -6,4 +6,4 @@ Queremos armar nuestra propia enciclopedia con artículos de nuestro interés, l
 * debajo de cada título de sección, 2 subsecciones con título `h3` (por ejemplo, debajo de **Biografía**, incluir **Infancia** y **Adultez**)
 * debajo de cada título de subsección, 2 párrafos `p`.
 
-> Busca :mag_right: algún artículo que te interese en Wikipedia y creá el código HTML que acabamos de describir para generar una página de nuestra enciclopedia.
+> Buscá :mag_right: algún artículo que te interese en Wikipedia y creá el código HTML que acabamos de describir.
