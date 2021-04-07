@@ -1,29 +1,32 @@
 /*<tests#*/it("Se introdujo un título h1", () => {
-  _originalDocument_.getElementsByTagName("h1").length.should.eql(1);
   document.getElementsByTagName("h1").length.should.eql(1);
 })
 
 it("Se introdujeron tres títulos h2", () => {
-  _originalDocument_.getElementsByTagName("h2").length.should.eql(3);
   document.getElementsByTagName("h2").length.should.eql(3);
 })
 
 it("Se introdujeron tres párrafos p", () => {
-  _originalDocument_.getElementsByTagName("p").length.should.eql(3);
   document.getElementsByTagName("p").length.should.eql(3);
 })
 
 it("Se introdujeron seis elementos en línea span", () => {
-  _originalDocument_.getElementsByTagName("span").length.should.eql(6);
   document.getElementsByTagName("span").length.should.eql(6);
 })
 
 it("Se introdujeron tres títulos h3", () => {
-  _originalDocument_.getElementsByTagName("h3").length.should.eql(3);
   document.getElementsByTagName("h3").length.should.eql(3);
 })
 
 it("Se introdujeron tres listas ordenadas", () => {
-  _originalDocument_.getElementsByTagName("ol").length.should.eql(3);
   document.getElementsByTagName("ol").length.should.eql(3);
-})/*#tests>*/
+})
+
+it("El título h1 dice Mis playlists", () => {
+document.querySelector('h1').should.have.trimmed.text("Mis playlist");
+})
+
+it("Los títulos h3 dicen Canciones". () =>{
+  document.querySelector('h3').should.have.trimmed.text("Canciones");
+})
+/*#tests>*/
