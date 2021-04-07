@@ -15,10 +15,12 @@ it("Se introdujeron seis párrafos p", () => {
 })
 
 it("Hay tres imagenes",() => {
-  document.getElementsByTagName("img").length.sould.eql(3);
+  document.getElementsByTagName("img").length.should.eql(3);
 })
 
-it
+it("Cada sección debe tener una imagen",() => {
+  document.querySelectorAll("section img").length.should.eql(2);
+})
 
 
 /*#tests>*/
