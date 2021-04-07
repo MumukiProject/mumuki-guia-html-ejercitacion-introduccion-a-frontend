@@ -6,4 +6,8 @@
 it("Se introdujo una etiqueta h1", () => {
   _originalDocument_.getElementsByTagName("h1").length.should.eql(1);
   document.getElementsByTagName("h1").length.should.eql(1);
+})
+
+it("El título dice El mejor artículo del mundo", () => {
+document.querySelector('h1').should.have.trimmed.text("El mejor artículo del mundo");
 })/*#tests>*/
