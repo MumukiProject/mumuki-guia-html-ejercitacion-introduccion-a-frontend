@@ -1,1 +1,25 @@
-/*<tests#*//*#tests>*/
+/*<tests#*/it("Se introdujo un título h1", () => {
+      _originalDocument_.getElementsByTagName("h1").length.should.eql(1);
+      document.getElementsByTagName("h1").length.should.eql(1);
+    })
+    
+it("Se introdujo un párrafo p", () => {
+      _originalDocument_.getElementsByTagName("p").length.should.eql(1);
+      document.getElementsByTagName("p").length.should.eql(1);
+    })
+
+it("Se introdujeron dos h2", () => {
+      _originalDocument_.getElementsByTagName("h2").length.should.eql(2);
+      document.getElementsByTagName("h2").length.should.eql(2);
+    })
+
+    
+it("Se introdujo una lista desordenada ul", () => {
+      _originalDocument_.getElementsByTagName("ul").length.should.eql(1);
+      document.getElementsByTagName("ul").length.should.eql(1);
+    })
+    
+it("Se introdujo una lista desordenada li", () => {
+      _originalDocument_.getElementsByTagName("li").length.should.eql(1);
+      document.getElementsByTagName("li").length.should.eql(1);
+    })/*#tests>*/
