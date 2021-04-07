@@ -22,4 +22,10 @@ it("Se introdujo una lista desordenada ul", () => {
 it("Se introdujo una lista desordenada li", () => {
       _originalDocument_.getElementsByTagName("li").length.should.eql(1);
       document.getElementsByTagName("li").length.should.eql(1);
-    })/*#tests>*/
+    })
+    
+it("", () => {
+  document.querySelector('h2:first').should.have.trimmed.text("Ingredientes");
+})
+
+/*#tests>*/
