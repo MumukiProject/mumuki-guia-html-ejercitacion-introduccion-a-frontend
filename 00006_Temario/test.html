@@ -22,15 +22,19 @@ it ("Se introdujo una lista ordenada ol",() => {
 document.getElementsByTagName("ol").length.should.eql(1);
 })
 
+it("El primer título h2 dice Introducción a HTML",() =>{
 document.querySelectorAll('h2')[0].should.have.trimmed.text("Introducción a HTML");
 })
 
+it("El segundo título h2 dice Introducción a CSS",() =>{
 document.querySelectorAll('h2')[1].should.have.trimmed.text("Introducción a CSS");
 })
 
+it("El tercer título h2 dice Introducción a Javascript",() =>{
 document.querySelectorAll('h2')[1].should.have.trimmed.text("Introducción a JavaScript");
 })
 
+it("El cuarto título h2 dice Introducción a React",() =>{
 document.querySelectorAll('h2')[1].should.have.trimmed.text("Introducción a React");
 })
 
