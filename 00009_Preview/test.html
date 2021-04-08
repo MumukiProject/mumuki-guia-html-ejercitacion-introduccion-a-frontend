@@ -1,1 +1,15 @@
-/*<tests#*//*#tests>*/
+/*<tests#*/it("Se introdujo un título h1", () => {
+  document.getElementsByTagName("h1").length.should.eql(1);
+})
+
+it("Se introdujo una imagen", () => {
+  document.getElementsByTagName("img").length.should.eql(1);
+})
+
+it("El título h2 dice Elenco", () => {
+  document.getElementsByTagName("h2").should.have.trimmed.text("Elenco");
+})
+
+/*it("El segundo título h2 dice Introducción a CSS",() =>{
+document.querySelectorAll('h2')[1].should.have.trimmed.text("Introducción a CSS");
+})*//*#tests>*/
