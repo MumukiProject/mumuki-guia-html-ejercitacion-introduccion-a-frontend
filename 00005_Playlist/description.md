@@ -1,4 +1,4 @@
-Queremos ordenar nuestras playlist y canciones :notes:
+Queremos ordenar nuestras playlist y canciones :notes: mediante un código HTML que debe contener:
 
 * un título `h1` que diga: `Mis playlists`.
 * 3 títulos `h2` con nombres de playlists (por ejemplo: `Éxitos de los 80s`).

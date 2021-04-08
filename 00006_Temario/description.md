@@ -6,11 +6,10 @@ Queremos organizar los temas de un curso, para eso vamos a realizar un temario. 
 * 5 secciones con título `h2` que sean las siguientes: 
   - `Introducción a HTML`.
   - `Introducción a CSS`.
-  - `Introducción a Sass`.
   - `Introducción a JavaScript`.
   - `Introducción a React`.
 * debajo de cada título de sección: 
-  - 10 párrafos `p` con `lorem ipsum`.
+  - 3 párrafos `p` con `lorem ipsum`.
   - un enlace que diga `Volver arriba` y que al clickearlo te lleve al título `h1`.
 
 > Creá el código HTML que acabamos de describir.
