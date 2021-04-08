@@ -10,6 +10,6 @@ it("El título h2 dice Elenco", () => {
   document.querySelector("h2").should.have.trimmed.text("Elenco");
 })
 
-/*it("El segundo título h2 dice Introducción a CSS",() =>{
-document.querySelectorAll('h2')[1].should.have.trimmed.text("Introducción a CSS");
-})*//*#tests>*/
+it("Se introdujo una etiqueta ul", () => {
+  document.querySelector("ul").should.exist;
+})/*#tests>*/
