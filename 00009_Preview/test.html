@@ -11,5 +11,17 @@ it("El título h2 dice Elenco", () => {
 })
 
 it("Se introdujo una etiqueta ul", () => {
-  document.querySelector("ul").should.exist;
+  document.querySelectorAll("ul").length.should.eql(2);
+})
+
+it("Se introdujeron tres etiquetas li", () => {
+  document.getElementByTagName("li").length.should.eql(3);
+})
+
+it("Hay un título h3 que dice Sinopsis",() => {
+  document.querySelectorAll("h3")[0].should.have.trimmed.text("Sinopsis")
+})
+
+it("Hay un título h3 que dice Géneros",() => {
+  document.querySelectorAll("h3")[1].should.have.trimmed.text("Géneros")
 })/*#tests>*/
