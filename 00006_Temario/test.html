@@ -6,14 +6,6 @@ it("Se introdujeron nueve párrafos p", () => {
   document.getElementsByTagName("p").length.should.eql(9);
 })
 
-it("Se introdujo un título h2", () => {
-  document.getElementsByTagName("h2").length.should.eql(1);
-})
-
-it("Se introdujeron tres títulos h3", () => {
-  document.getElementsByTagName("p").length.should.eql(3);
-})
-
 it("El título h1 dice Curso de desarrollo Frontend", () => {
 document.querySelector('h1').should.have.trimmed.text("Curso de desarrollo Frontend");
 })
