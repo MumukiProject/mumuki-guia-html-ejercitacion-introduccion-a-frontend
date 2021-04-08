@@ -1,19 +1,23 @@
-/*<tests#*/it("Hay un título h1 que dice Un artículo increíble", () => {
-  document.querySelector("h1").should.have.trimmed.text("Un artículo increíble");
+/*<tests#*/it("Hay un título h1 que dice Mi tienda", () => {
+  document.querySelector("h1").should.have.trimmed.text("Mi tienda");
 })
 
-it("Hay un título h2 que dice Comentarios", () => {
-  document.querySelector("h2").should.have.trimmed.text("Comentarios");
+it("Hay un título h2 que dice Productos más comprados", () => {
+  document.querySelector("h2").should.have.trimmed.text("Productos más comprados");
 })
 
-it("Se introdujeron cinco títulos h3", () => {
-  document.querySelectorAll("h3").length.should.eql(5);
+it("Se introdujeron cuatro imagenes", () => {
+  document.querySelectorAll("img").length.should.eql(4);
 })
 
-it("Se introdujeron cinco etiquetas span", () => {
-  document.querySelectorAll("span").length.should.eql(5);
+it("Se introdujeron cuatro títulos h3", () => {
+  document.querySelectorAll("h3").length.should.eql(4);
 })
 
-it("Se introdujeron seis párrafos p", () => {
-  document.querySelectorAll("p").length.should.eql(6);
+it("Se introdujeron doce etiquetas span", () => {
+  document.querySelectorAll("span").length.should.eql(12);
+})
+
+it("Se introdujeron ocho párrafos p", () => {
+  document.querySelectorAll("p").length.should.eql(8);
 })/*#tests>*/
