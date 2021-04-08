@@ -1,4 +1,4 @@
-Anteriormente realizamos un blog, pero un blog sin imagenes es medio aburrido :pensive:, por suerte podemos realizar uno nuevo y así aumentar el número de visitas :raised_hands:. 
+Anteriormente realizamos un blog, pero un blog sin imagenes es medio aburrido :pensive:, por suerte podemos realizar uno más entretenido y así aumentar el número de visitas :raised_hands:. 
 Necesitamos que nuestro nuevo blog tenga:
 
 - una imagen
@@ -9,6 +9,5 @@ Necesitamos que nuestro nuevo blog tenga:
   - 2 párrafos `p`
   - una imagen entre los dos párrafos anteriores.
  
-Las imágenes tienen que estar relacionadas. Usar imágenes con links externos (absolutos).  
 
 > Creá el código HTML que acabamos de describir.
