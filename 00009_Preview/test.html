@@ -15,7 +15,7 @@ it("Se introdujo una etiqueta ul", () => {
 })
 
 it("Se introdujeron tres etiquetas li", () => {
-  document.getElementByTagName("li").length.should.eql(3);
+  document.querySelectorAll("ul[0] li").length.should.eql(3);
 })
 
 it("Hay un título h3 que dice Sinopsis",() => {
@@ -24,4 +24,5 @@ it("Hay un título h3 que dice Sinopsis",() => {
 
 it("Hay un título h3 que dice Géneros",() => {
   document.querySelectorAll("h3")[1].should.have.trimmed.text("Géneros")
-})/*#tests>*/
+})
+/*#tests>*/
