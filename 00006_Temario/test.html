@@ -2,8 +2,8 @@
   document.getElementsByTagName("h1").length.should.eql(1);
 })
 
-it("Se introdujo un párrafo p", () => {
-  document.getElementsByTagName("p").length.should.eql(1);
+it("Se introdujeron nueve párrafos p", () => {
+  document.getElementsByTagName("p").length.should.eql(9);
 })
 
 it("Se introdujo un título h2", () => {
@@ -19,6 +19,19 @@ document.querySelector('h1').should.have.trimmed.text("Curso de desarrollo Front
 })
 
 it ("Se introdujo una lista ordenada ol",() => {
-  document.getElementsByTagName("ol").should.exist;
+document.getElementsByTagName("ol").length.should.eql(1);
 })
+
+document.querySelectorAll('h2')[0].should.have.trimmed.text("Introducción a HTML");
+})
+
+document.querySelectorAll('h2')[1].should.have.trimmed.text("Introducción a CSS");
+})
+
+document.querySelectorAll('h2')[1].should.have.trimmed.text("Introducción a JavaScript");
+})
+
+document.querySelectorAll('h2')[1].should.have.trimmed.text("Introducción a React");
+})
+
 /*#tests>*/
