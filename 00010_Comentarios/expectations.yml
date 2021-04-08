@@ -15,9 +15,3 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: DeclaresTag:span
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: "*"
-  inspection: DeclaresTag:ul
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: ul
-  inspection: DeclaresTag:li

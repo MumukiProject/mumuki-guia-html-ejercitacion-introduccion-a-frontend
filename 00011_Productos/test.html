@@ -1,1 +1,19 @@
-/*<tests#*//*#tests>*/
+/*<tests#*/it("Hay un título h1 que dice Un artículo increíble", () => {
+  document.querySelector("h1").should.have.trimmed.text("Un artículo increíble");
+})
+
+it("Hay un título h2 que dice Comentarios", () => {
+  document.querySelector("h2").should.have.trimmed.text("Comentarios");
+})
+
+it("Se introdujeron cinco títulos h3", () => {
+  document.querySelectorAll("h3").length.should.eql(5);
+})
+
+it("Se introdujeron cinco etiquetas span", () => {
+  document.querySelectorAll("span").length.should.eql(5);
+})
+
+it("Se introdujeron seis párrafos p", () => {
+  document.querySelectorAll("p").length.should.eql(6);
+})/*#tests>*/
