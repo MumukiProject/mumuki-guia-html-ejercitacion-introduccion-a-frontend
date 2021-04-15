@@ -1,4 +1,4 @@
-Queremos organizar los productos de una tienda, para lograrlo necesitamos que el código HTML contenga:
+Queremos organizar los productos de una tienda :convenience_store:, para lograrlo necesitamos que el código HTML contenga:
 
 - un título `h1` que diga: `Mi tienda`.
 - un título `h2` que diga: `Productos más comprados`.
