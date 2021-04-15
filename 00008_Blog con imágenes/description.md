@@ -1,4 +1,4 @@
-Anteriormente realizamos un blog, pero un blog sin imagenes es medio aburrido :pensive:, por suerte podemos realizar uno más entretenido y así aumentar el número de visitas :raised_hands:. 
+Anteriormente realizamos un blog, pero un blog sin imagenes es medio aburrido :pensive:, por suerte podemos realizar uno más entretenido para aumentar el número de visitas :raised_hands:. 
 Necesitamos que nuestro nuevo blog tenga:
 
 - una imagen
